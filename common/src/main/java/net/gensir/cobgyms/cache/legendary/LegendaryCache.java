@@ -6,16 +6,7 @@ public class LegendaryCache {
 
     public static Cache prepCache() {
         String[] cachePokemon = {
-                "mewtwo",
-                "mew",
-                "zapdos",
-                "articuno",
-                "moltres",
-                "rayquaza",
-                "xerneas",
-                "poipole",
-                "walkingwake",
-                "ironleaves"
+                "mewtwo"
         };
         return new Cache(cachePokemon);
     }
